@@ -165,9 +165,66 @@ color: #627382;
 }
 .feature p{
     font-size: 16px;
+    font-weight: 500;
+    color: #001931;
     line-height: 20px;
     margin-bottom: 16px;
 }
+#last-section{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0px 120px 120px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+.access-box{
+padding: 80px 0px;
+text-align: center;
+}
+.access-box h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.access-box p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+.access-box button{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+footer{
+    width: 100%;
+    max-width: 1600px;
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+.social h5{
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.social i{
+    color: #ffffff;
+    margin-right: 16px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+footer .copy{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
 
 
 
