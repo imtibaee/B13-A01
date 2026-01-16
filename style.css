@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.nav-box{
+    width: 85%;
+    margin: 34px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    margin-right: 16px;
+}
+.button .btn{
+    background-color: #469165;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 13px 16px;
+    border: none;
+
+}
