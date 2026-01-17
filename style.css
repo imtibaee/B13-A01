@@ -30,6 +30,9 @@
     padding: 13px 16px;
     border: none;
 }
+.banner-button{
+    align-items: center;
+}
 #banner{
     background-image: url(assets/hero-bg.png);
     padding: 116px 120px 179px 120px;
@@ -218,11 +221,16 @@ footer{
     justify-content: space-between;
     margin-bottom: 80px;
 }
-footer .copy{
+footer .copy p{
     text-align: center;
     font-size: 16px;
     line-height: 24px;
     color: #FAFAFA;
+    margin-top: 30px;
+}
+footer .copy hr{
+    opacity: 20%;
+    color: #E5E7EB;
 }
 
 
