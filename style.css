@@ -232,6 +232,118 @@ footer .copy hr{
     opacity: 20%;
     color: #E5E7EB;
 }
+.hide{
+    display: none !important;
+}
+@media screen and (max-width:576px) {
+    #second-brain {
+    width: 100%;
+    padding: 40px 20px 0px 20px;
+}
+.sec-brain {
+    flex-direction: column;
+    gap: 0px;
+}
+.sec-brain-image img{
+ width: 100%;
+}
+.sec-brain-content h1 {
+    font-size: 32px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.sec-brain-content{
+    padding: 40px 20px;
+}
+.feature p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#last-section {
+    width: 100%;
+    margin: 0px;
+}
+.header {
+    margin: 50px 20px;
+}
+.card {
+    width: 100%;
+    margin: 44px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.card-box {
+    width: 75%;
+    padding: 50px 24px;
+}
+.access-box{
+    padding: 60px 20px;
+}
+footer {
+    padding: 20px 30px ;
+}
+    footer .copy p {
+    font-size: 10px;
+    margin-top: 20px;
+}
+.nav-image img{
+    width: 85%;
+}
+.nav-box {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.nav-link {
+    display: flex;
+    white-space: nowrap;
+}
+.nav-link a{
+    font-size: 12px;
+}
+.button .btn {
+    font-size: 12px;
+    padding: 11px 14px;
+}
+#banner {
+    background-image: url(assets/hero-bg.png);
+    width: 100%;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+}
+.banner-content {
+    padding: 10px 10px;
+    align-items: center;
+    text-align: center;
+}
+.color-white {
+    color: white;
+    font-size: 40px;
+}
+.color-green {
+    color: #30B868;
+    font-size: 40px;
+}
+.banner-content p{
+    font-size: 14px;
+}
+.banner-content .curvy-button{
+    padding: 6px 9px;
+    font-size: 14px;
+}
+.banner-button .btn {
+    font-size: 14px;
+}
+.btn-2{
+    font-size: 14px;
+}
+.banner-button{
+    display: flex;
+    flex-direction: column;
+    
+}
+}
 
 
 
